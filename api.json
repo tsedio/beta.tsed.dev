@@ -1,0 +1,2340 @@
+{
+  "version": "8.0.0-beta.10",
+  "scope": "@tsed",
+  "symbolTypes": [
+    {
+      "value": "decorator",
+      "label": "Decorator",
+      "code": "@"
+    },
+    {
+      "value": "class",
+      "label": "Class",
+      "code": "C"
+    },
+    {
+      "value": "enum",
+      "label": "Enum",
+      "code": "E"
+    },
+    {
+      "value": "function",
+      "label": "Function",
+      "code": "F"
+    },
+    {
+      "value": "interface",
+      "label": "Interface",
+      "code": "I"
+    },
+    {
+      "value": "const",
+      "label": "Constant",
+      "code": "K"
+    },
+    {
+      "value": "service",
+      "label": "Service",
+      "code": "S"
+    },
+    {
+      "value": "type",
+      "label": "Type alias",
+      "code": "T"
+    }
+  ],
+  "symbolStatus": [
+    {
+      "value": "stable",
+      "label": "Stable"
+    },
+    {
+      "value": "deprecated",
+      "label": "Deprecated"
+    },
+    {
+      "value": "experimental",
+      "label": "Experimental"
+    },
+    {
+      "value": "private",
+      "label": "Private"
+    },
+    {
+      "value": "public",
+      "label": "Public"
+    }
+  ],
+  "modules": {
+    "@tsed/core": {
+      "symbols": [
+        {
+          "path": "/api/core/types/domain/Type",
+          "symbolName": "Type",
+          "module": "@tsed/core",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/core/types/domain/AbstractType",
+          "symbolName": "AbstractType",
+          "module": "@tsed/core",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/core/types/interfaces/MetadataTypes",
+          "symbolName": "MetadataTypes",
+          "module": "@tsed/core",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/core"
+    },
+    "@tsed/engines": {
+      "symbols": [
+        {
+          "path": "/api/engines/types/components/ViewEngineOptions",
+          "symbolName": "ViewEngineOptions",
+          "module": "@tsed/engines",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/engines/types/components/EngineOptions",
+          "symbolName": "EngineOptions",
+          "module": "@tsed/engines",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/engines"
+    },
+    "@tsed/graphql-ws": {
+      "symbols": [
+        {
+          "path": "/api/graphql/graphql-ws/types/GraphQLWSOptions",
+          "symbolName": "GraphQLWSOptions",
+          "module": "@tsed/graphql-ws",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/graphql-ws"
+    },
+    "@tsed/platform-serverless-testing": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-serverless-testing/types/LambdaPromiseResult",
+          "symbolName": "LambdaPromiseResult",
+          "module": "@tsed/platform-serverless-testing",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-serverless-testing"
+    },
+    "@tsed/jwks": {
+      "symbols": [
+        {
+          "path": "/api/security/jwks/types/JwksKeyParameters",
+          "symbolName": "JwksKeyParameters",
+          "module": "@tsed/jwks",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/jwks/types/JwksOptions",
+          "symbolName": "JwksOptions",
+          "module": "@tsed/jwks",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/jwks"
+    },
+    "@tsed/di": {
+      "symbols": [
+        {
+          "path": "/api/di/types/common/decorators/ModuleOptions",
+          "symbolName": "ModuleOptions",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/domain/ControllerMiddlewares",
+          "symbolName": "ControllerMiddlewares",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/DIConfigurationOptions",
+          "symbolName": "DIConfigurationOptions",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/DILogger",
+          "symbolName": "DILogger",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/DILoggerOptions",
+          "symbolName": "DILoggerOptions",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/DIResolver",
+          "symbolName": "DIResolver",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/InterceptorNext",
+          "symbolName": "InterceptorNext",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/InterceptorContext",
+          "symbolName": "InterceptorContext",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/InterceptorMethods",
+          "symbolName": "InterceptorMethods",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/InvokeOptions",
+          "symbolName": "InvokeOptions",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/OnDestroy",
+          "symbolName": "OnDestroy",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/OnInit",
+          "symbolName": "OnInit",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/ProviderOpts",
+          "symbolName": "ProviderOpts",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/ResolvedInvokeOptions",
+          "symbolName": "ResolvedInvokeOptions",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/common/interfaces/TokenRoute",
+          "symbolName": "TokenRoute",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/node/domain/ContextLoggerOptions",
+          "symbolName": "ContextLoggerOptions",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/node/domain/DIContextOptions",
+          "symbolName": "DIContextOptions",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/di/types/node/interfaces/AlterRunInContext",
+          "symbolName": "AlterRunInContext",
+          "module": "@tsed/di",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/di"
+    },
+    "@tsed/apollo": {
+      "symbols": [
+        {
+          "path": "/api/graphql/apollo/types/interfaces/AlterApolloContext",
+          "symbolName": "AlterApolloContext",
+          "module": "@tsed/apollo",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/graphql/apollo/types/interfaces/AlterApolloServerPlugins",
+          "symbolName": "AlterApolloServerPlugins",
+          "module": "@tsed/apollo",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/graphql/apollo/types/interfaces/AlterApolloSettings",
+          "symbolName": "AlterApolloSettings",
+          "module": "@tsed/apollo",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/graphql/apollo/types/interfaces/ApolloContext",
+          "symbolName": "ApolloContext",
+          "module": "@tsed/apollo",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/apollo"
+    },
+    "@tsed/typegraphql": {
+      "symbols": [
+        {
+          "path": "/api/graphql/typegraphql/types/decorators/ResolverControllerOptions",
+          "symbolName": "ResolverControllerOptions",
+          "module": "@tsed/typegraphql",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/typegraphql"
+    },
+    "@tsed/ioredis": {
+      "symbols": [
+        {
+          "path": "/api/orm/ioredis/types/domain/RedisClusterConfig",
+          "symbolName": "RedisClusterConfig",
+          "module": "@tsed/ioredis",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/ioredis"
+    },
+    "@tsed/mikro-orm": {
+      "symbols": [
+        {
+          "path": "/api/orm/mikro-orm/types/interceptors/TransactionOptions",
+          "symbolName": "TransactionOptions",
+          "module": "@tsed/mikro-orm",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/orm/mikro-orm/types/interfaces/AfterTransactionCommit",
+          "symbolName": "AfterTransactionCommit",
+          "module": "@tsed/mikro-orm",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/orm/mikro-orm/types/interfaces/BeforeTransactionCommit",
+          "symbolName": "BeforeTransactionCommit",
+          "module": "@tsed/mikro-orm",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/orm/mikro-orm/types/interfaces/RetryStrategy",
+          "symbolName": "RetryStrategy",
+          "module": "@tsed/mikro-orm",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/mikro-orm"
+    },
+    "@tsed/mongoose": {
+      "symbols": [
+        {
+          "path": "/api/orm/mongoose/types/interfaces/MongooseConnectionOptions",
+          "symbolName": "MongooseConnectionOptions",
+          "module": "@tsed/mongoose",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/orm/mongoose/types/interfaces/MongooseModelOptions",
+          "symbolName": "MongooseModelOptions",
+          "module": "@tsed/mongoose",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/orm/mongoose/types/interfaces/MongooseVirtualRefOptions",
+          "symbolName": "MongooseVirtualRefOptions",
+          "module": "@tsed/mongoose",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/mongoose"
+    },
+    "@tsed/objection": {
+      "symbols": [
+        {
+          "path": "/api/orm/objection/types/decorators/DecimalOptions",
+          "symbolName": "DecimalOptions",
+          "module": "@tsed/objection",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/orm/objection/types/domain/ColumnOpts",
+          "symbolName": "ColumnOpts",
+          "module": "@tsed/objection",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/objection"
+    },
+    "@tsed/platform-cache": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-cache/types/interfaces/PlatformCacheOptions",
+          "symbolName": "PlatformCacheOptions",
+          "module": "@tsed/platform-cache",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-cache/types/interfaces/PlatformCachedObject",
+          "symbolName": "PlatformCachedObject",
+          "module": "@tsed/platform-cache",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-cache"
+    },
+    "@tsed/platform-exceptions": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-exceptions/types/interfaces/ExceptionFilterMethods",
+          "symbolName": "ExceptionFilterMethods",
+          "module": "@tsed/platform-exceptions",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-exceptions"
+    },
+    "@tsed/platform-express": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-express/types/interfaces/PlatformExpressSettings",
+          "symbolName": "PlatformExpressSettings",
+          "module": "@tsed/platform-express",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-express/types/interfaces/PlatformExpressStaticsOptions",
+          "symbolName": "PlatformExpressStaticsOptions",
+          "module": "@tsed/platform-express",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-express"
+    },
+    "@tsed/platform-koa": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-koa/types/interfaces/PlatformKoaSettings",
+          "symbolName": "PlatformKoaSettings",
+          "module": "@tsed/platform-koa",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-koa"
+    },
+    "@tsed/platform-middlewares": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-middlewares/types/domain/MiddlewareMethods",
+          "symbolName": "MiddlewareMethods",
+          "module": "@tsed/platform-middlewares",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-middlewares"
+    },
+    "@tsed/platform-params": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-params/types/domain/ParamOptions",
+          "symbolName": "ParamOptions",
+          "module": "@tsed/platform-params",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-params"
+    },
+    "@tsed/platform-response-filter": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-response-filter/types/interfaces/ResponseFilterMethods",
+          "symbolName": "ResponseFilterMethods",
+          "module": "@tsed/platform-response-filter",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-response-filter"
+    },
+    "@tsed/platform-router": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-router/types/domain/PlatformHandlerMetadataOpts",
+          "symbolName": "PlatformHandlerMetadataOpts",
+          "module": "@tsed/platform-router",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-router/types/domain/PlatformHandlerMetadataProps",
+          "symbolName": "PlatformHandlerMetadataProps",
+          "module": "@tsed/platform-router",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-router/types/domain/PlatformLayerOptions",
+          "symbolName": "PlatformLayerOptions",
+          "module": "@tsed/platform-router",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-router/types/domain/PlatformLayerProps",
+          "symbolName": "PlatformLayerProps",
+          "module": "@tsed/platform-router",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-router/types/domain/AlterEndpointHandlersArg",
+          "symbolName": "AlterEndpointHandlersArg",
+          "module": "@tsed/platform-router",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-router"
+    },
+    "@tsed/platform-serverless": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-serverless/types/builder/PlatformServerlessSettings",
+          "symbolName": "PlatformServerlessSettings",
+          "module": "@tsed/platform-serverless",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-serverless/types/domain/ServerlessContextOptions",
+          "symbolName": "ServerlessContextOptions",
+          "module": "@tsed/platform-serverless",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-serverless"
+    },
+    "@tsed/oidc-provider": {
+      "symbols": [
+        {
+          "path": "/api/security/oidc-provider/types/decorators/InteractionsOptions",
+          "symbolName": "InteractionsOptions",
+          "module": "@tsed/oidc-provider",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/oidc-provider/types/domain/InteractionMethods",
+          "symbolName": "InteractionMethods",
+          "module": "@tsed/oidc-provider",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/oidc-provider/types/domain/OidcAccountsMethods",
+          "symbolName": "OidcAccountsMethods",
+          "module": "@tsed/oidc-provider",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/oidc-provider/types/domain/OidcInteractionMethods",
+          "symbolName": "OidcInteractionMethods",
+          "module": "@tsed/oidc-provider",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/oidc-provider/types/domain/OidcInteractionOptions",
+          "symbolName": "OidcInteractionOptions",
+          "module": "@tsed/oidc-provider",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/oidc-provider/types/domain/OidcSettings",
+          "symbolName": "OidcSettings",
+          "module": "@tsed/oidc-provider",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/oidc-provider"
+    },
+    "@tsed/passport": {
+      "symbols": [
+        {
+          "path": "/api/security/passport/types/decorators/AuthenticateOptions",
+          "symbolName": "AuthenticateOptions",
+          "module": "@tsed/passport",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/passport/types/decorators/AuthorizeOptions",
+          "symbolName": "AuthorizeOptions",
+          "module": "@tsed/passport",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/passport/types/interfaces/BeforeInstall",
+          "symbolName": "BeforeInstall",
+          "module": "@tsed/passport",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/passport/types/interfaces/OnInstall",
+          "symbolName": "OnInstall",
+          "module": "@tsed/passport",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/passport/types/interfaces/OnVerify",
+          "symbolName": "OnVerify",
+          "module": "@tsed/passport",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/passport/types/interfaces/ProtocolMethods",
+          "symbolName": "ProtocolMethods",
+          "module": "@tsed/passport",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/security/passport/types/interfaces/ProtocolOptions",
+          "symbolName": "ProtocolOptions",
+          "module": "@tsed/passport",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/passport"
+    },
+    "@tsed/ajv": {
+      "symbols": [
+        {
+          "path": "/api/specs/ajv/types/services/AjvValidateOptions",
+          "symbolName": "AjvValidateOptions",
+          "module": "@tsed/ajv",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/ajv"
+    },
+    "@tsed/json-mapper": {
+      "symbols": [
+        {
+          "path": "/api/specs/json-mapper/types/decorators/AfterDeserializeCallback",
+          "symbolName": "AfterDeserializeCallback",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/decorators/BeforeDeserializeCallback",
+          "symbolName": "BeforeDeserializeCallback",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/decorators/OnDeserializeCallback",
+          "symbolName": "OnDeserializeCallback",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/decorators/OnSerializeCallback",
+          "symbolName": "OnSerializeCallback",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/domain/JsonDeserializerOptions",
+          "symbolName": "JsonDeserializerOptions",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/domain/JsonMapperGlobalOptions",
+          "symbolName": "JsonMapperGlobalOptions",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/domain/JsonSerializerOptions",
+          "symbolName": "JsonSerializerOptions",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/interfaces/JsonMapperCtx",
+          "symbolName": "JsonMapperCtx",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/interfaces/JsonMapperNext",
+          "symbolName": "JsonMapperNext",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/json-mapper/types/interfaces/JsonMapperMethods",
+          "symbolName": "JsonMapperMethods",
+          "module": "@tsed/json-mapper",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/json-mapper"
+    },
+    "@tsed/openspec": {
+      "symbols": [
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecExternalDocs",
+          "symbolName": "OpenSpecExternalDocs",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecContact",
+          "symbolName": "OpenSpecContact",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecLicense",
+          "symbolName": "OpenSpecLicense",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecInfo",
+          "symbolName": "OpenSpecInfo",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecBaseJsonSchema",
+          "symbolName": "OpenSpecBaseJsonSchema",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecJsonSchema",
+          "symbolName": "OpenSpecJsonSchema",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecPath",
+          "symbolName": "OpenSpecPath",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecRef",
+          "symbolName": "OpenSpecRef",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecTag",
+          "symbolName": "OpenSpecTag",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/common/OpenSpecXML",
+          "symbolName": "OpenSpecXML",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2Header",
+          "symbolName": "OS2Header",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2Operation",
+          "symbolName": "OS2Operation",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2Paths",
+          "symbolName": "OS2Paths",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2Response",
+          "symbolName": "OS2Response",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2XML",
+          "symbolName": "OS2XML",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2BaseSchema",
+          "symbolName": "OS2BaseSchema",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2Schema",
+          "symbolName": "OS2Schema",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2SecurityBase",
+          "symbolName": "OS2SecurityBase",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2SecurityBasic",
+          "symbolName": "OS2SecurityBasic",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2SecurityApiKey",
+          "symbolName": "OS2SecurityApiKey",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2SecurityOAuth",
+          "symbolName": "OS2SecurityOAuth",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2FlowImplicit",
+          "symbolName": "OS2FlowImplicit",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2FlowPassword",
+          "symbolName": "OS2FlowPassword",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2FlowApplication",
+          "symbolName": "OS2FlowApplication",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OS2FlowAccessCode",
+          "symbolName": "OS2FlowAccessCode",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec2/OpenSpec2",
+          "symbolName": "OpenSpec2",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Components",
+          "symbolName": "OS3Components",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Encoding",
+          "symbolName": "OS3Encoding",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Example",
+          "symbolName": "OS3Example",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Flow",
+          "symbolName": "OS3Flow",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3FlowImplicit",
+          "symbolName": "OS3FlowImplicit",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3FlowPassword",
+          "symbolName": "OS3FlowPassword",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3FlowClientCredentials",
+          "symbolName": "OS3FlowClientCredentials",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3FlowAuthorizationCode",
+          "symbolName": "OS3FlowAuthorizationCode",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Flows",
+          "symbolName": "OS3Flows",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Header",
+          "symbolName": "OS3Header",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Link",
+          "symbolName": "OS3Link",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3MediaType",
+          "symbolName": "OS3MediaType",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Operation",
+          "symbolName": "OS3Operation",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Paths",
+          "symbolName": "OS3Paths",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3RequestBody",
+          "symbolName": "OS3RequestBody",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Response",
+          "symbolName": "OS3Response",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3BaseSchema",
+          "symbolName": "OS3BaseSchema",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Schema",
+          "symbolName": "OS3Schema",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3SecurityBase",
+          "symbolName": "OS3SecurityBase",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3SecurityApiKey",
+          "symbolName": "OS3SecurityApiKey",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3SecurityOAuth2",
+          "symbolName": "OS3SecurityOAuth2",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3SecurityOpenIDConnect",
+          "symbolName": "OS3SecurityOpenIDConnect",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3SecurityHTTP",
+          "symbolName": "OS3SecurityHTTP",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OpenSpecServerVariable",
+          "symbolName": "OpenSpecServerVariable",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OS3Server",
+          "symbolName": "OS3Server",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/openspec/types/openspec3/OpenSpec3",
+          "symbolName": "OpenSpec3",
+          "module": "@tsed/openspec",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/openspec"
+    },
+    "@tsed/schema": {
+      "symbols": [
+        {
+          "path": "/api/specs/schema/types/domain/JsonEntityStoreOptions",
+          "symbolName": "JsonEntityStoreOptions",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/domain/JsonViewOptions",
+          "symbolName": "JsonViewOptions",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/domain/JsonRedirectOptions",
+          "symbolName": "JsonRedirectOptions",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/domain/JsonMethodPath",
+          "symbolName": "JsonMethodPath",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/domain/JsonOperationOptions",
+          "symbolName": "JsonOperationOptions",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/domain/JsonParameterStoreOptions",
+          "symbolName": "JsonParameterStoreOptions",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/domain/PipeMethods",
+          "symbolName": "PipeMethods",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/domain/JsonSchemaObject",
+          "symbolName": "JsonSchemaObject",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/interfaces/IgnoreCallback",
+          "symbolName": "IgnoreCallback",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/interfaces/JsonHookContext",
+          "symbolName": "JsonHookContext",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/interfaces/JsonHeader",
+          "symbolName": "JsonHeader",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/interfaces/JsonHeaders",
+          "symbolName": "JsonHeaders",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/interfaces/JsonSchemaOptions",
+          "symbolName": "JsonSchemaOptions",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/decorators/collections/ArrayOfChainedDecorators",
+          "symbolName": "ArrayOfChainedDecorators",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/decorators/collections/MapOfChainedDecorators",
+          "symbolName": "MapOfChainedDecorators",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/decorators/collections/CollectionOfChainedDecorators",
+          "symbolName": "CollectionOfChainedDecorators",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/decorators/generics/GenericOfChainedDecorators",
+          "symbolName": "GenericOfChainedDecorators",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/decorators/operations/InChainedDecorators",
+          "symbolName": "InChainedDecorators",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/decorators/operations/RouteChainedDecorators",
+          "symbolName": "RouteChainedDecorators",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/schema/types/decorators/operations/ReturnsChainedDecorators",
+          "symbolName": "ReturnsChainedDecorators",
+          "module": "@tsed/schema",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/schema"
+    },
+    "@tsed/swagger": {
+      "symbols": [
+        {
+          "path": "/api/specs/swagger/types/interfaces/SwaggerUIOptions",
+          "symbolName": "SwaggerUIOptions",
+          "module": "@tsed/swagger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/swagger/types/interfaces/SwaggerSettingsBase",
+          "symbolName": "SwaggerSettingsBase",
+          "module": "@tsed/swagger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/swagger/types/interfaces/SwaggerOS2Settings",
+          "symbolName": "SwaggerOS2Settings",
+          "module": "@tsed/swagger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/specs/swagger/types/interfaces/SwaggerOS3Settings",
+          "symbolName": "SwaggerOS3Settings",
+          "module": "@tsed/swagger",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/swagger"
+    },
+    "@tsed/agenda": {
+      "symbols": [
+        {
+          "path": "/api/third-parties/agenda/types/interfaces/DefineOptions",
+          "symbolName": "DefineOptions",
+          "module": "@tsed/agenda",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/agenda"
+    },
+    "@tsed/pulse": {
+      "symbols": [
+        {
+          "path": "/api/third-parties/pulse/types/interfaces/DefineOptions",
+          "symbolName": "DefineOptions",
+          "module": "@tsed/pulse",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/pulse"
+    },
+    "@tsed/bullmq": {
+      "symbols": [
+        {
+          "path": "/api/third-parties/bullmq/types/contracts/JobMethods",
+          "symbolName": "JobMethods",
+          "module": "@tsed/bullmq",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/third-parties/bullmq/types/contracts/JobStore",
+          "symbolName": "JobStore",
+          "module": "@tsed/bullmq",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/third-parties/bullmq/types/dispatchers/JobDispatcherOptions",
+          "symbolName": "JobDispatcherOptions",
+          "module": "@tsed/bullmq",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/bullmq"
+    },
+    "@tsed/event-emitter": {
+      "symbols": [
+        {
+          "path": "/api/third-parties/event-emitter/types/interfaces/EventEmitterStore",
+          "symbolName": "EventEmitterStore",
+          "module": "@tsed/event-emitter",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/event-emitter"
+    },
+    "@tsed/socketio": {
+      "symbols": [
+        {
+          "path": "/api/third-parties/socketio/types/interfaces/OnNamespaceInit",
+          "symbolName": "OnNamespaceInit",
+          "module": "@tsed/socketio",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/third-parties/socketio/types/interfaces/SocketHandlerMetadata",
+          "symbolName": "SocketHandlerMetadata",
+          "module": "@tsed/socketio",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/third-parties/socketio/types/interfaces/SocketInjectableNsp",
+          "symbolName": "SocketInjectableNsp",
+          "module": "@tsed/socketio",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/third-parties/socketio/types/interfaces/SocketParamMetadata",
+          "symbolName": "SocketParamMetadata",
+          "module": "@tsed/socketio",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/socketio"
+    },
+    "@tsed/sse": {
+      "symbols": [
+        {
+          "path": "/api/third-parties/sse/types/decorators/EventStreamOpts",
+          "symbolName": "EventStreamOpts",
+          "module": "@tsed/sse",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/sse"
+    },
+    "@tsed/stripe": {
+      "symbols": [
+        {
+          "path": "/api/third-parties/stripe/types/domain/StripeSettings",
+          "symbolName": "StripeSettings",
+          "module": "@tsed/stripe",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/stripe"
+    },
+    "@tsed/platform-http": {
+      "symbols": [
+        {
+          "path": "/api/platform/platform-http/types/common/domain/PlatformContextOptions",
+          "symbolName": "PlatformContextOptions",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/domain/PlatformRouteDetails",
+          "symbolName": "PlatformRouteDetails",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/AfterInit",
+          "symbolName": "AfterInit",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/AfterListen",
+          "symbolName": "AfterListen",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/AfterRoutesInit",
+          "symbolName": "AfterRoutesInit",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/BeforeInit",
+          "symbolName": "BeforeInit",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/BeforeListen",
+          "symbolName": "BeforeListen",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/BeforeRoutesInit",
+          "symbolName": "BeforeRoutesInit",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/IncomingEvent",
+          "symbolName": "IncomingEvent",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/OnReady",
+          "symbolName": "OnReady",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/OnRequest",
+          "symbolName": "OnRequest",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/OnResponse",
+          "symbolName": "OnResponse",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/OnRoutesInit",
+          "symbolName": "OnRoutesInit",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/ResponseErrorObject",
+          "symbolName": "ResponseErrorObject",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/Route",
+          "symbolName": "Route",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/interfaces/RouteController",
+          "symbolName": "RouteController",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/middlewares/MulterInputOptions",
+          "symbolName": "MulterInputOptions",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/config/interfaces/PlatformJsonMapperSettings",
+          "symbolName": "PlatformJsonMapperSettings",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/config/interfaces/PlatformRouterSettings",
+          "symbolName": "PlatformRouterSettings",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        },
+        {
+          "path": "/api/platform/platform-http/types/common/config/interfaces/PlatformStaticsOptions",
+          "symbolName": "PlatformStaticsOptions",
+          "module": "@tsed/platform-http",
+          "symbolType": "interface",
+          "symbolLabel": "Interface",
+          "symbolCode": "I",
+          "status": [
+            "stable"
+          ]
+        }
+      ],
+      "name": "@tsed/platform-http"
+    }
+  }
+}

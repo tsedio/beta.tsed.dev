@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t}from"./chunks/framework.JWorlyEv.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/services.md","filePath":"docs/services.md","lastUpdated":1729878022000}'),a={name:"docs/services.md"};function c(r,o,d,n,i,p){return t(),s("div")}const f=e(a,[["render",c]]);export{m as __pageData,f as default};
